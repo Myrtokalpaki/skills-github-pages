@@ -1,0 +1,42 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #dialog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  #intro-box {
+    background-color: #F0F0F0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #chat-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+  }
+  
+  .answer-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #0065b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .answer-btn:hover {
+    background-color: #004b7c;
+  }
